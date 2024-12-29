@@ -1,0 +1,28 @@
+body{
+    background-color: #27292c;
+    color:white;
+    list-style: circle;
+    font-family: Inter,sans-serif;
+    
+}
+.navbar{
+    padding-left: 2rem;
+    background-color: #21222a;
+    height: 90px;
+    align-items: center;
+    display: flex;
+}
+.navbar span {
+    font-weight: bold;
+    color: aqua;
+    margin-left: 16px;
+}
+
+li{
+    margin: 12px;
+}
+
+li::marker{
+    color: #61dafb;
+    font-size: 2rem;
+}
